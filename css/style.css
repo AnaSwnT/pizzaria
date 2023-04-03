@@ -1,0 +1,162 @@
+/* Reset CSS para tirar todas as margens dos elementos */ 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+/* Estilização do header- cabeçalho */ 
+ 
+.cabecalho {
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.cabecalho > img {
+    height: 60px;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu > li {
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.menu > li:hover {
+    background-color: darkred;
+}
+
+.menu > li > a {
+    color: white;
+    text-decoration: none;
+    text-shadow: 3px 3px 3px black;
+    padding-left:10px;
+    padding-right:10px;
+    font-weight: 600;
+}
+
+.div1 {
+    display: flex;
+    justify-content: center;
+    background-image: url(/img/pizza.jpg);
+    background-size: cover;
+    background-position: top center;
+    height: 400px;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 13px 13px 13px green;
+}
+
+h1 {
+    padding: 40px;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+.botao1 {
+    background-color: rgba(0, 0, 0, 0.451);
+    border: 2px solid white;
+    text-align: center;
+    text-decoration: none;
+    padding: 11px;
+    border-radius: 5px;
+    color: white;
+    box-shadow: 1px 1px 1px black;
+}
+
+.botao1:hover {
+    background-color: rgba(255, 255, 255, 0.577);
+    color: black;
+}
+.linhasabores {
+    height: 5px;
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%,
+     rgba(255,0,0,1) 50%,
+     rgba(255,255,255,1) 100%);
+     border: none;
+
+}
+main {
+    max-width: 1300px;
+    text-align: center;
+    margin: 0px auto;
+    min-width: 250px;
+}
+
+.preco {
+    background-color: yellow;
+    border-radius: 5px;
+    color: black;
+    width: 235px;  
+    padding: 11px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+.sabores {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+     color: white
+}
+.sabor {
+    margin: 10px;
+    margin-top: 5px;
+    background-color: darkolivegreen;
+    box-shadow: 5px 5px 5px 5px rgba(0, 128, 0, 0.441);
+    border-radius: 15px;
+}
+.nome {
+   margin-bottom: 20px; 
+}
+.foto {
+    border-radius: 15px;
+}
+h2 {
+    margin-top: 15px;
+    color: darkolivegreen;
+    margin-bottom: 15px;
+}
+.p-1 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.promocoes{
+    display: flex;
+    overflow: scroll;
+    color: white;
+}
+.promocoes::-webkit-scrollbar {
+    display: none;
+}
+
+.rodape {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    background-color: red;
+    border-top: 3px solid rgb(17, 16, 16);
+}
+li {
+    list-style-type: none;
+}
+.endereco > li > a {
+    text-decoration: none;
+    color: white;
+}
+.redessociais > li > a {
+    text-decoration: none;
+    color: white;
+}
