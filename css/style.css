@@ -141,7 +141,6 @@ h2 {
 .promocoes::-webkit-scrollbar {
     display: none;
 }
-
 .rodape {
     display: flex;
     justify-content: space-between;
